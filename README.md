@@ -4,7 +4,7 @@
 
  Author  : Kouji Nakashima / kuc-arc-f.com
 
- date    : 2020/03/21 19:15
+ date    : 2020/03/21
 
 ***
 
@@ -27,6 +27,7 @@ php artisan serve
 ***
 ### blog
 
+https://knaka0209.hatenablog.com/entry/lara58_19_form
 
 ***
 
