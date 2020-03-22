@@ -26,6 +26,9 @@ Route::resource('depts', 'DeptsController');
 //
 Route::post('/todos/delete', 'TodosController@delete');
 Route::resource('todos', 'TodosController');
+//
+Route::post('/vue_sort_items/update_number', 'VueSortItemsController@update_number')->name('vue_sort_items.update_number');
+Route::resource('vue_sort_items', 'VueSortItemsController');
 
 //
 Auth::routes();
@@ -36,6 +39,8 @@ Route::get('/home', 'HomeController@index')->name('home');
  * API
  **************************************/
 Route::prefix('api')->group(function(){
+    // sort_items
+    Route::get('/api_sort_items/get_items', 'ApiSortItemsController@get_items');
     //book
     Route::post('/apibooks/delete_task', 'ApiBooksController@delete_task');
     Route::post('/apibooks/update_post', 'ApiBooksController@update_post');

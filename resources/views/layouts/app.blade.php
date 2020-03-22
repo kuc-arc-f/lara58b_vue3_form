@@ -42,6 +42,7 @@
 						<a class="dropdown-item" href="/vue_todos">VueTodos</a>
 						-->
 						<a class="dropdown-item" href="/vue_books">VueBooks</a>
+						<a class="dropdown-item" href="/vue_sort_items">VueSortItems</a>
 					</div><!-- ./dropdown-menu -->
 				</li>                
 				<li class="nav-item active">
